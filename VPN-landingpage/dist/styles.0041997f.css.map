@@ -1,0 +1,1 @@
+{"version":3,"sources":["styles.scss"],"names":[],"mappings":"AAAA,cAEI,WAAY,CAEd,iBACE,UAAW","file":"styles.0041997f.css","sourceRoot":"..","sourcesContent":[".container {\n  & h1 {\n    color: green;\n  }\n  &__text {\n    color: blue;\n  }\n}"]}
