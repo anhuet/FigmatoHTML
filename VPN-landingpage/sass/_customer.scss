@@ -1,0 +1,122 @@
+.customer {
+  margin-top: 50px;
+  padding-bottom: 100px;
+  &-header {
+    .heading {
+      text-align: center;
+      max-width: 448px;
+      margin: 0 auto;
+    }
+    .des {
+      margin-top: 20px;
+      text-align: center;
+      max-width: 555px;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 1.875;
+    }
+  }
+  &-comment {
+    margin-top: 60px;
+  }
+  &-item {
+    padding: 30px;
+    border: 2px solid #dddddd;
+    border-radius: 10px;
+    &:hover {
+      border: 2px solid #f53838;
+      transition: 0.3 all ease;
+    }
+  }
+  &-info {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .info-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 20px;
+    .name {
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    .address {
+      font-size: 14px;
+      font-weight: 400;
+    }
+  }
+  .info-right {
+    display: flex;
+    gap: 0 5px;
+    justify-content: center;
+  }
+  &-text {
+    line-height: 1.875;
+  }
+
+  // slick
+  .slick-track {
+    width: auto;
+  }
+  .slick-slide {
+    margin: 0 25px;
+  }
+
+  .slick-current {
+    .customer-item {
+      border: 2px solid #f53838;
+    }
+  }
+  .slick-next {
+    z-index: 1;
+    position: absolute;
+    right: 30px;
+    bottom: -20px;
+    padding: 20px;
+    background-color: $primary-color;
+    border: 1px solid $primary-color;
+
+    border: none;
+    border-radius: 50%;
+  }
+  .slick-prev {
+    z-index: 1;
+
+    position: absolute;
+    right: 100px;
+    bottom: -20px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid $primary-color;
+    border-radius: 50%;
+    button {
+      color: white;
+    }
+  }
+
+  .slick-dots {
+    margin: 0 25px;
+    margin-top: 82.5px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 0 15px;
+    transform: translateY(50%);
+    button {
+      font-size: 0;
+      background-color: $gray-color;
+      width: 15px;
+      height: 15px;
+      border: none;
+      border-radius: 100rem;
+      transition: all 0.2s linear;
+    }
+    .slick-active button {
+      background-color: $primary-color;
+      width: 45px;
+    }
+  }
+}
