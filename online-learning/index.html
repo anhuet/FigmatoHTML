@@ -1,0 +1,358 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Learning</title>
+    <link rel="stylesheet" href="./css/app.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="bg-hero pt-2 mx-4 sm:mx-0">
+        <div class="hero-wrapper container mx-auto">
+          <header>
+            <div class="header-wrapper flex justify-between items-center">
+              <div class="header-logo">
+                <img src="images/online-logo.png" alt="" />
+              </div>
+
+              <div
+                class="header-menu flex w-full md:w-auto justify-end"
+                id="navbar-default"
+              >
+                <button
+                  data-collapse-toggle="navbar-default"
+                  type="button"
+                  class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                  aria-controls="navbar-default"
+                  aria-expanded="false"
+                  id="menu-toggle"
+                >
+                  <span class="sr-only">Open main menu</span>
+                  <svg
+                    class="w-6 h-6"
+                    aria-hidden="true"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                </button>
+                <ul
+                  class="hidden md:flex flex-col md:flex-row justfy-center items-center"
+                >
+                  <li
+                    class="mx-4 lg:mx-8 hover:bg-yellow hover:text-white px-8 py-4 rounded-full transition ease-in-out delay-150"
+                  >
+                    Home
+                  </li>
+                  <li
+                    class="mx-4 lg:mx-8 hover:bg-yellow hover:text-white px-8 py-4 rounded-full transition ease-in-out delay-150"
+                  >
+                    Careers
+                  </li>
+                  <li
+                    class="mx-4 lg:mx-8 hover:bg-yellow hover:text-white px-8 py-4 rounded-full transition ease-in-out delay-150"
+                  >
+                    Blog
+                  </li>
+                  <li
+                    class="mx-4 lg:mx-8 hover:bg-yellow hover:text-white px-8 py-4 rounded-full transition ease-in-out delay-150"
+                  >
+                    About Us
+                  </li>
+                  <li
+                    class="mx-4 lg:mx-8 text-gray-500 hover:bg-yellow hover:text-white px-8 py-4 rounded-full transition ease-in-out delay-150"
+                  >
+                    Login
+                  </li>
+                </ul>
+                <button
+                  class="mx-4 lg:mx-8 px-4 md:px-6 lg:px-8 py-2py-4 bg-yellow rounded-full text-white"
+                >
+                  Sign Up
+                </button>
+              </div>
+            </div>
+          </header>
+          <section
+            class="hero grid md:grid-cols-12 grid-cols-1 gap-12 items-center mt-8 md:mt-0"
+          >
+            <div class="hero-content col-span-5 order-2 md:order-1">
+              <h3
+                class="text-darkBlue font-bold text-xl xl:text-5xl lg:text-4xl md:text-3xl"
+              >
+                <span class="text-yellow">Studying Online</span> is now much
+                easier
+              </h3>
+              <p class="text-grayCustom mt-8">
+                Skilline is an interesting platform that will teach you in more
+                an interactive way
+              </p>
+              <div
+                class="hero-button flex flex-col md:flex-row items-start md:items-center justify-start md:justify-between mt-10"
+              >
+                <button class="bg-yellow rounded-full text-white">
+                  <a class="px-4 md:px-8 py-2 md:py-4 block" href="font-bold ">
+                    Join for free
+                  </a>
+                </button>
+                <div class="flex items-center mt-10 md:mt-0">
+                  <div
+                    class="w-0 h-0 border-t-[10px] border-t-transparent border-l-[20px] border-l-blue border-b-[10px] border-b-transparent mr-8"
+                  ></div>
+                  <div class="text-textBlue">Watch how it works</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-span-7 order-1 md:order-2">
+              <img src="images/hero-img.png" alt="" />
+            </div>
+          </section>
+        </div>
+      </div>
+      <section
+        class="partner container mx-auto mt-[50px] md:mt-[100px] px-4 md:px-0"
+      >
+        <h3
+          class="partner-header text-center text-grayText text-2xl lg:text-3xl"
+        >
+          Trusted by 5,000+ Companies Worldwide
+        </h3>
+        <div class="partner-logo my-10">
+          <ul class="flex flex-wrap items-center justify-between">
+            <li>
+              <img
+                class="xl:w-40 lg:w-30 w-25"
+                src="images/airbnb.png"
+                alt=""
+              />
+            </li>
+            <li>
+              <img
+                class="xl:w-40 lg:w-30 w-20"
+                src="images/amazon.png"
+                alt=""
+              />
+            </li>
+
+            <li>
+              <img
+                class="xl:w-40 lg:w-30 w-20"
+                src="images/facebook.png"
+                alt=""
+              />
+            </li>
+
+            <li>
+              <img
+                class="xl:w-40 lg:w-30 w-20"
+                src="images/google.png"
+                alt=""
+              />
+            </li>
+
+            <li>
+              <img
+                class="xl:w-40 lg:w-30 w-20"
+                src="images/grab-logo.png"
+                alt=""
+              />
+            </li>
+
+            <li>
+              <img
+                class="xl:w-40 lg:w-30 w-20"
+                src="images/netflix.png"
+                alt=""
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section
+        class="about container mx-auto mt-[50px] md:mt-[100px] xl:w-[1470] px-4 md:px-0"
+      >
+        <h3
+          class="text-darkBlue font-bold text-2xl xl:text-5xl lg:text-4xl md:text-3xl text-center"
+        >
+          <span>All-In-One</span>
+          <span class="text-yellow">Cloud Software.</span>
+        </h3>
+        <p class="about-des text-grayText text-center text-lg md:text-xl mt-4">
+          Skilline is one powerful online software suite that combines all the
+          tools needed to run a successful school or office.
+        </p>
+        <div
+          class="about-card mt-20 flex flex-col md:flex-row justify-center items-center gap-10 lg:gap-12 xl:gap-24"
+        >
+          <div
+            class="card w-full md:w-1/3 xl:w-[450px] flex flex-col items-center mb-4 mb-md:0"
+          >
+            <img class="w-24" src="images/card-logo-1.png" alt="" />
+            <div
+              class="card-header mt-4 md:mt-10 text-darkBlue xl:text-3xl text-2xl font-medium text-center h-16 md:h-24"
+            >
+              Online Billing, Invoicing, & Contracts
+            </div>
+            <div class="card-des mt-4 text-grayText text-center">
+              Simple and secure control of your organization’s financial and
+              legal transactions. Send customized invoices and contracts
+            </div>
+          </div>
+          <div
+            class="card w-full md:w-1/3 xl:w-[450px] flex flex-col items-center mb-4 mb-md:0"
+          >
+            <img class="w-24" src="images/card-logo-2.png" alt="" />
+            <div
+              class="card-header mt-4 md:mt-10 text-darkBlue xl:text-3xl text-2xl font-medium text-center h-16 md:h-24"
+            >
+              Easy Scheduling & Attendance Tracking
+            </div>
+            <div class="card-des mt-4 text-grayText text-center">
+              Schedule and reserve classrooms at one campus or multiple
+              campuses. Keep detailed records of student attendance
+            </div>
+          </div>
+          <div
+            class="card w-full md:w-1/3 xl:w-[450px] flex flex-col items-center mb-4 mb-md:0"
+          >
+            <img class="w-24" src="images/card-logo-3.png" alt="" />
+            <div
+              class="card-header mt-4 md:mt-10 text-darkBlue xl:text-3xl text-2xl font-medium text-center h-16 md:h-24"
+            >
+              Customer Tracking
+            </div>
+            <div class="card-des mt-4 text-grayText text-center">
+              Automate and track emails to individuals or groups. Skilline’s
+              built-in system helps organize your organization
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="skillline container mx-auto mt-20 lg:mt-30 xl:mt-40 px-4 md:px-0"
+      >
+        <div class="skilline-des-1 xl:w-[1300] mx-auto">
+          <h3
+            class="text-darkBlue font-bold text-2xl xl:text-5xl lg:text-4xl md:text-3xl text-center"
+          >
+            <span>What is</span>
+            <span class="text-yellow">Skilline? </span>
+          </h3>
+          <p
+            class="about-des text-grayText text-center text-lg md:text-xl mt-4"
+          >
+            Skilline is a platform that allows educators to create online
+            classes whereby they can store the course materials online; manage
+            assignments, quizzes and exams; monitor due dates; grade results and
+            provide students with feedback all in one place.
+          </p>
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-24 mt-12 md:mt-16 justify-center"
+          >
+            <div
+              class="card card-intructors h-[400px] bg-cover bg-right bg-[url('images/skilline-card-1.png')] bg-no-repeat flex items-center justify-center flex-col"
+            >
+              <h1 class="text-white font-bold mb-4 text-2xl lg:text-3xl">
+                FOR INSTRUCTORS
+              </h1>
+              <button
+                class="rounded-full text-white border-2 border-white hover:border-blue px-8 py-4 md:px-4 md:py-2 hover:bg-blue transaction delay-75 ease-linear"
+              >
+                Start a class today
+              </button>
+            </div>
+            <div
+              class="card card-intructors h-[400px] bg-cover bg-right bg-[url('images/skilline-card-2.png')] bg-no-repeat flex items-center justify-center flex-col"
+            >
+              <h1 class="text-white font-bold mb-4 text-2xl lg:text-3xl">
+                FOR STUDENTS
+              </h1>
+              <button
+                class="rounded-full text-white border-2 border-white hover:border-blue px-8 py-4 md:px-4 md:py-2 hover:bg-blue transaction delay-75 ease-linear"
+              >
+                Enter access code
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="skilline-des-2 xl:mt-[100] mt-12 grid grid-cols-1 md:grid-cols-2 gap-14 items-center"
+        >
+          <div class="skilline-cando relative">
+            <img
+              class="absolute -z-10 -top-5 -left-5"
+              src="images/circle-xl.png "
+              alt=""
+            />
+            <h3
+              class="text-darkBlue text-2xl md:text-3xl xl:text-4xl font-medium leading-loose"
+            >
+              <span class="leading-relaxed"
+                >Everything you can do in a physical classroom</span
+              >
+              <span class="text-yellow">you can do with Skilline </span>
+            </h3>
+            <p
+              class="text-grayText text-start mt-5 text-lg md:text-xl mb-5 leading-relaxed"
+            >
+              Skilline’s school management software helps traditional and online
+              schools manage scheduling, attendance, payments and virtual
+              classrooms all in one secure cloud-based system.
+            </p>
+            <img
+              class="absolute -z-10 top-1/2 right-0"
+              src="images/circle-sm.png "
+              alt=""
+            />
+            <a class="text-grayText underline underline-offset-4">Learn more</a>
+          </div>
+          <div class="skilline-cando-img relative">
+            <img src="images/skilline-can-do.png" alt="" />
+            <img
+              class="absolute -z-10 -top-5 -left-5"
+              src="images/Rectangle.png "
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+      <section class="feature container mt-20 lg:mt-30 xl:mt-40">
+        <h3
+          class="text-darkBlue font-bold text-2xl xl:text-5xl lg:text-4xl md:text-3xl text-center"
+        >
+          <span>Our </span>
+          <span class="text-yellow">Features</span>
+        </h3>
+        <p
+          class="feature-des text-grayText text-center text-lg md:text-xl mt-4"
+        >
+          This very extraordinary feature, can make learning activities more
+          efficient
+        </p>
+        <div class="feature-item grid grid-cols-1 md:grid-cols-2 items-center">
+          <div class="feature-item-img">
+            
+          </div>
+          <div class="feature-item-text"></div>
+        </div>
+      </section>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
